@@ -44,3 +44,18 @@ h1, h2, h3, h4 {
 .post h2 a, .post h2 a:visited {
     color: #000000;
 }
+
+/* Create two equal columns that floats next to each other */
+.column-title {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+
+.column-date {
+  float: right;
+  width: 30%;
+  padding-top: 30px;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
